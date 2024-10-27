@@ -1,0 +1,6 @@
+<form method="post">
+    {% csrf_token %}
+    <label for="count">Количество пользователей:</label>
+    <input type="number" id="count" name="count" required>
+    <button type="submit">Зарегистрировать пользователей</button>
+</form>
